@@ -1,0 +1,13 @@
+kill
+bind [key] [ex:forward;sprint]
+client.connect [ip]:[port]
+server.seed
+streamermode [0/1]
+
+
+spawn minicopter.entity
+inventory.give [item] [amount]
+env.time [##time]
+noclip
+weather.[fog/rain] [0.00 to 1]
+status
